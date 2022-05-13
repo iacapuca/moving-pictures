@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .square {
+    aspect-ratio: 1 / 1;
+  }
+}
+
+.rating-g {
+  background: linear-gradient(
+    to right bottom,
+    rgb(0, 255, 153),
+    rgb(0, 204, 255)
+  );
+}
+
+.rating-pg {
+  background: linear-gradient(
+    to right bottom,
+    rgb(0, 204, 255),
+    rgb(49, 145, 255)
+  );
+}

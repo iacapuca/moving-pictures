@@ -1,0 +1,10 @@
+<div class='grid place-items-center min-h-screen'>
+  <div
+    data-test-grid
+    class='p-4 max-w-5xl grid gap-4 xs:grid-cols-2 xs:p-8 md:grid-cols-4 lg:gap-6'
+  >
+    {{#each @gifs as |gif|}}
+      <Gif::Card @gif={{gif}} />
+    {{/each}}
+  </div>
+</div>
